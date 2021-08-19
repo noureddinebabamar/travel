@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.main{
+    background-image: url("img/home1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.navbar{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+}
+.nav li{
+    margin-right: 70px;
+    
+}
+.nav li .active{
+    border-bottom: 2px solid white;
+    padding-bottom: 7px;
+}
+.navbar .opensans-font{
+    font-family:'Open Sans', sans-serif;
+    color: white;
+}
+a{
+    color: white;
+}
+ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+ul li .icon{
+    margin-left: 1rem;
+}
+/* ------------------------------------- */
+.text{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 88vh;
+    line-height: 45px;
+}
+.main-text p{
+    font-size: 60px;
+}
+.main-text{
+    margin-bottom: 20px;
+}
+button{
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    background-color: #14505C;
+}
+.main-text p{
+    color: white;
+}
+.text h3{
+    color: white;
+}
+.bold{
+    font-weight: bold;
+}
+
+/* ------------------------------ */
+.fab{
+    font-size: 20px;
+    margin-right: 35px;
+    color: white;
+    position: relative;
+    left: 0;
+    bottom: 4rem;
+}
+
+/* --------------------------------- */
+.box{
+    background-color:#14505C;
+    padding: 20px;
+    width: 330px;
+    height: 135px;
+    display: grid;
+    grid-template-columns: repeat( 2, minmax(90px, 1fr) );
+    overflow: hidden;
+    position: absolute;
+    right: 8rem;
+    bottom: 3rem;
+}
+.box img{
+    width: 100%;
+}
+.text-1{
+    color: white;
+    padding: 15px;
+    line-height: 15px;
+    font-family:'Open Sans', sans-serif;
+}
+.fa-arrow-right{
+    margin-left: 4px;
+}
